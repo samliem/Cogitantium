@@ -1,0 +1,379 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Section
+	## Header
+	## About
+	## Skill
+	## Experience
+	## Education
+    ## Portfolio
+    ## Blog
+    ## Training & Certificate
+    ## Contact
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Section
+--------------------------------------------------------------*/
+
+section {
+    /* box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.06); */
+    padding: 30px 0;
+}
+
+section h2 {
+    margin-top: 0px;
+}
+
+section .title {
+    margin-top: 0;
+}
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+
+.page-header .content-center {
+    margin-top: 0;
+}
+
+.presentation-title {
+    font-size: 5em;
+}
+
+.cv-download {
+    margin-top: 14px;
+    text-align: center;
+}
+
+.btn-download {
+    position: relative;
+    display: inline-block;
+    padding: 7px 14px;
+    border-width: 3px;
+    border-style: solid;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-download::before,
+.btn-download::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 3px;
+}
+
+.btn-download::before {
+    left: -80px;
+}
+
+.btn-download::after {
+    right: -80px;
+}
+
+/*--------------------------------------------------------------
+## About
+---------------------------------------------------------------*/
+
+.photo-img {
+    max-width: 332px;
+    display: inline-block;
+}
+
+.personal-data .row {
+    padding: 5px 0;
+}
+
+.personal-data .row:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+/*--------------------------------------------------------------
+## Skill
+---------------------------------------------------------------*/
+
+.skill-exp h2 {
+    background: #eee;
+}
+
+.skill {
+    margin-bottom: 36px;
+}
+
+.progress-bar {
+    display: initial;
+    /* reset bootstrap */
+}
+
+.progress-item {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.progress-item .progress-title {
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.progress-item .progress {
+    height: 2px;
+    box-shadow: none;
+    border-radius: 0;
+    background: transparent;
+}
+
+.progress-item .progress-bar {
+    box-shadow: none;
+    text-align: right;
+}
+
+.progress-item .progress-percent {
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    padding: 0 8px;
+    border-radius: 3px;
+}
+
+.progress-item .progress-percent {
+    background-color: #313131;
+}
+
+.progress-item .progress-percent::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    border-right: 8px solid transparent;
+}
+
+.progress-item .progress-percent::before {
+    border-top: 6px solid #313131;
+}
+
+/*--------------------------------------------------------------
+## Experience
+--------------------------------------------------------------*/
+
+.exp table {
+    width: 100%;
+    font-size: 12px;
+}
+
+.exp th, .exp td {
+    padding: 5px 14px 5px 5px;
+}
+
+.exp tr:nth-child(even) {
+    background: #efefef;
+}
+
+.exp th:last-child, .exp td:last-child {
+    width: 50%;
+}
+
+/*--------------------------------------------------------------
+## Education
+--------------------------------------------------------------*/
+
+#education .heading {
+    margin-top: 36px;
+}
+
+#education .heading:before {
+    content: '';
+    height: 10px;
+    width: 50px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#education h3 {
+    margin: 0;
+}
+
+#education .heading h3 {
+    font-size: 1.8rem;
+}
+
+#education .heading h6 {
+    font-size: 0.9rem;
+}
+
+.edu-wrapper {
+    position: relative;
+}
+
+.edu-wrapper .education {
+    position: relative;
+}
+
+.edu-wrapper .education:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: -58px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.edu-wrapper:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    bottom: 0;
+    left: -51px;
+    width: 2px;
+}
+
+.edu-wrapper:after {
+    background: #ccc;
+}
+
+/*--------------------------------------------------------------
+## Portfolio
+--------------------------------------------------------------*/
+
+#portfolio {
+    padding: 0;
+}
+
+#portfolio .title h2 {
+    color: white;
+}
+
+.card-portfolio .card-header {
+    background: #efefef;
+}
+
+.card-portfolio .card-body {
+    height: 180px;
+    overflow: hidden;
+}
+
+/*--------------------------------------------------------------
+## Blog
+--------------------------------------------------------------*/
+
+#blog .title {
+    margin-bottom: 0;
+}
+
+.card-blog {
+    border: solid 1px #eee;
+}
+
+.link-all-post {
+    font-size: large;
+}
+
+.posts {
+    position: relative;
+}
+
+.owl-theme .owl-dots {
+    margin-top: 24px;
+}
+
+/* --- Relocate navigation buttons --- */
+
+.owl-carousel .owl-stage-outer {
+    z-index: 0;
+}
+
+.owl-theme .owl-nav {
+    z-index: 10;
+    position: absolute;
+    top: 25%;
+    font-size: 3rem;
+    color: rgba(15, 15, 15, 0.7);
+    width: 100%;
+}
+
+button.owl-prev, button.owl-next {
+    position: absolute;
+}
+
+button.owl-prev {
+    left: 36px
+}
+
+button.owl-next {
+    right: 36px
+}
+
+button.owl-prev:hover, button.owl-next:hover {
+    background: transparent !important;
+    color: rgb(187, 1, 1) !important;
+}
+
+.owl-nav button:focus {
+    outline: none;
+    border: none;
+}
+
+/*--------------------------------------------------------------
+## Training & Certificate
+--------------------------------------------------------------*/
+
+#tnc {
+    /* background-color: #B2AFAB; */
+}
+
+.tnc-category {
+    display: none;
+}
+
+.tnc-category.active {
+    display: block;
+}
+
+.card-tnc {
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+#training .card-body {
+    position: relative;
+    height: 175px;
+    overflow: hidden;
+}
+
+#training .card-body::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(transparent, #fff);
+    z-index: 1;
+}
+
+#training .read-more {
+    position: absolute;
+    left: 18px;
+    bottom: 10px;
+    z-index: 5;
+}
+
+/*--------------------------------------------------------------
+## Contact
+--------------------------------------------------------------*/
+#contact ul.list-ico {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-page {
+    color: #efefef;
+}

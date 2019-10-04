@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+.btn-primary {
+    background-color: #51cbce !important;
+    border-color: #51cbce !important;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover,
+.btn-primary.active {
+    background-color: #34b5b8 !important;
+    color: #FFFFFF;
+    border-color: #34b5b8 !important;
+    /* box-shadow: none; */
+}
+

@@ -1,0 +1,224 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Button
+# Breadcrumbs
+# Navigation
+# Back to top
+# Single
+# Widget
+    ## Search Widget
+    ## Tag Cloud
+# Archive, Search
+    ## Pagination
+# Home Sections
+    ## Skill
+    ## Experience
+    ## Education
+    ## Blog
+# Widget
+# Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+.btn-primary {
+    background-color: #51cbce !important;
+    border-color: #51cbce !important;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover,
+.btn-primary.active {
+    background-color: #34b5b8 !important;
+    color: #FFFFFF;
+    border-color: #34b5b8 !important;
+    /* box-shadow: none; */
+}
+
+.btn-download {
+    color: #FFF;
+    background-color: rgb(81, 203, 206, 0.4);
+    border-color: rgb(81, 203, 206);
+}
+
+.btn-download::before,
+.btn-download::after {
+    background-color: rgb(81, 203, 206);
+}
+
+.btn-download:hover {
+    color: #FFF;
+    background-color: rgb(81, 203, 206, 0.7);
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs a.category {
+    color: #51cbce;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@media screen and (max-width: 991px) {
+    .navbar-collapse .navbar-nav>.nav-item>.nav-link.active {
+        background: #1e99ce;
+        color: #fff !important;
+    }
+ }
+
+/*--------------------------------------------------------------
+# Back to top
+--------------------------------------------------------------*/ 
+.back-to-top {
+    background: #1e99ce;
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Single
+--------------------------------------------------------------*/
+.single .author {
+	background: #1e99ce;
+}
+
+/*--------------------------------------------------------------
+# Widget
+--------------------------------------------------------------*/
+.block-title {
+    background: #1e99ce;
+}
+
+/*--------------------------------------------------------------
+## Search Widget
+--------------------------------------------------------------*/
+.search-widget .input-group .form-control {
+    color: #fff;
+    background: #1e99ce;
+}
+
+.search-widget .input-group .form-control.placeholder {
+    color: #fff;
+}
+
+.search-widget .input-group .form-control:-moz-placeholder {
+    color: #fff;
+}
+
+.search-widget .input-group .form-control::-moz-placeholder {
+    color: #fff;
+}
+
+.search-widget .input-group .form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.search-widget .input-group .btn-default {
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+## Tag Cloud
+--------------------------------------------------------------*/
+
+.tag-cloud-widget ul li a {
+    border: 1px solid #eee;
+    background: #fff;
+    color: #222222;
+}
+
+.tag-cloud-widget ul li a:hover {
+    background: #e45447;
+    color: #fff;
+}
+
+.tag-cloud-widget ul li a {
+    border: 1px solid #eee;
+    background: #fff;
+    color: #222222;
+}
+
+/*--------------------------------------------------------------
+# Archive, Search 
+--------------------------------------------------------------*/
+.list-group-item i {
+	color: #1e99ce;
+}
+
+/*--------------------------------------------------------------
+## Pagination
+--------------------------------------------------------------*/
+.pagination .page-numbers {
+    color: #8a8a8a;
+}
+
+.pagination .page-numbers .fas {
+    font-weight: 600;
+}
+
+.pagination .page-numbers {
+    color: #8a8a8a;
+}
+
+.pagination .page-numbers:hover {
+    color: #fff;
+    background: #e45447;
+    border-color: #eee;
+}
+
+.pagination .current {
+    background: #e45447;
+    border-color: transparent;
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Home Sections
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Skill
+--------------------------------------------------------------*/
+.progress-item .progress-bar {
+    background-color: #ff5722;
+}
+
+/*--------------------------------------------------------------
+## Experience
+--------------------------------------------------------------*/
+.table-header {
+    background: #34b5b8 !important;
+    color: white;
+}
+
+/*--------------------------------------------------------------
+## Education
+--------------------------------------------------------------*/
+#education .heading:before {
+    background: #FFA804;
+}
+
+.edu-wrapper .education:after {
+    box-shadow: 0 0 0 8px rgba(255, 171, 0, .4);
+    background: #FFAB00;
+}
+
+/*--------------------------------------------------------------
+## Blog
+--------------------------------------------------------------*/
+.link-all-post {
+    color: #51cbce !important;
+}
+
+.link-all-post:hover {
+    color: #34b5b8 !important;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.copyright a:hover {
+    color: #34b5b8;
+}

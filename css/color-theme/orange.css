@@ -1,0 +1,275 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# General
+# Button
+# Breadcrumbs
+# Navigation
+# Back to top
+# Single
+# Widget
+    ## Search Widget
+    ## Tag Cloud
+# Archive, Search
+    ## Pagination
+# Home Sections
+    ## Skill
+    ## Experience
+    ## Education
+    ## Blog
+# Widget
+# Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+a {
+    color: #f0642d;
+}
+
+.widget a:hover,
+.breadcrumbs a:hover {
+    color: #b33807 !important;
+}
+
+.text-primary, .text-primary:hover {
+    color: #b33807!important;
+}
+
+.text-primary {
+    color: #f0642d!important;
+}
+
+.text-warning, .text-warning:hover {
+    color: #e94f12!important;
+}
+.text-warning {
+    color: #d16a41 !important;
+}
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+.btn-primary:not(:disabled):not(.disabled):active, 
+.btn-primary:not(:disabled):not(.disabled).active, 
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #9c1818;
+    border-color: #9c1818;
+}
+
+.btn-primary {
+    background-color: #f0642d !important;
+    border-color: #f0642d !important;
+    color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary.active {
+    background-color: #b83805 !important;
+    color: #fff;
+    border-color: #b83805 !important;
+}
+
+.btn-outline-primary {
+    border-color: #f0642d;
+    color: #f0642d;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.btn-outline-primary:hover {
+    background-color: #f0642d !important;
+    border-color: #f0642d !important;
+}
+
+.btn-download {
+    color: #FFF;
+    background-color: rgba(240,100,45, .4);
+    border-color: rgb(240,100,45);
+}
+
+.btn-download::before,
+.btn-download::after {
+    background-color: rgb(240,100,45);
+}
+
+.btn-download:hover {
+    color: #FFF;
+    background-color: rgba(240,100,45, .7);
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs a.category {
+    color: #f0642d;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@media screen and (max-width: 991px) {
+    .navbar-collapse .navbar-nav>.nav-item>.nav-link.active {
+        background: #f0642d;
+        color: #fff !important;
+    }
+ }
+
+/*--------------------------------------------------------------
+# Back to top
+--------------------------------------------------------------*/ 
+.back-to-top {
+    background: #f0642d;
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Single
+--------------------------------------------------------------*/
+.single .author {
+	background: #f0642d;
+}
+
+.nav-posts a:hover {
+    color: #f59211 !important;
+}
+
+/*--------------------------------------------------------------
+# Widget
+--------------------------------------------------------------*/
+.block-title {
+    background: #f0642d;
+}
+
+/*--------------------------------------------------------------
+## Search Widget
+--------------------------------------------------------------*/
+.search-widget .input-group .form-control {
+    color: #fff;
+    background: #f0642d;
+}
+
+.search-widget .input-group .form-control.placeholder {
+    color: #fff;
+}
+
+.search-widget .input-group .form-control:-moz-placeholder {
+    color: #fff;
+}
+
+.search-widget .input-group .form-control::-moz-placeholder {
+    color: #fff;
+}
+
+.search-widget .input-group .form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.search-widget .input-group .btn-default {
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+## Tag Cloud
+--------------------------------------------------------------*/
+
+.tag-cloud-widget ul li a {
+    border: 1px solid #eee;
+    background: #fff;
+    color: #222222;
+}
+
+.tag-cloud-widget ul li a:hover {
+    background: #f0642d;
+    color: #fff;
+}
+
+.tag-cloud-widget ul li a {
+    border: 1px solid #eee;
+    background: #fff;
+    color: #222222;
+}
+
+/*--------------------------------------------------------------
+# Archive, Search 
+--------------------------------------------------------------*/
+.list-group-item i {
+	color: #f0642d;
+}
+
+/*--------------------------------------------------------------
+## Pagination
+--------------------------------------------------------------*/
+.pagination .page-numbers {
+    color: #8a8a8a;
+}
+
+.pagination .page-numbers .fas {
+    font-weight: 600;
+}
+
+.pagination .page-numbers {
+    color: #8a8a8a;
+}
+
+.pagination .page-numbers:hover {
+    color: #fff;
+    background: #f0642d;
+    border-color: #eee;
+}
+
+.pagination .current {
+    background: #f0642d;
+    border-color: transparent;
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Home Sections
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Skill
+--------------------------------------------------------------*/
+.progress-item .progress-bar {
+    background-color: #f0642d;
+}
+
+/*--------------------------------------------------------------
+## Experience
+--------------------------------------------------------------*/
+.table-header {
+    background: #f0642d !important;
+    color: white;
+}
+
+/*--------------------------------------------------------------
+## Education
+--------------------------------------------------------------*/
+#education .heading:before {
+    background: #1c7430;
+}
+
+.edu-wrapper .education:after {
+    box-shadow: 0 0 0 8px rgba(28,116,48, 0.4);
+    background: #1c7430;
+}
+
+/*--------------------------------------------------------------
+## Blog
+--------------------------------------------------------------*/
+.link-all-post:hover {
+    color: #f0642d !important;
+}
+
+.link-all-post {
+    color: #1c7430 !important;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.copyright a:hover {
+    color: #f0642d;
+}
